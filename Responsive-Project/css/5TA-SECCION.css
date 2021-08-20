@@ -1,0 +1,42 @@
+.topicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-topicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+#icono-y-descripcion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 180px;
+  margin: 20px;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}
+span#icono-y-descripcion img{
+  width:50%;
+}
+h5 {
+  width: 100%;
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  padding: 15px;
+  font-weight: 400;
+  margin-top: 30px;
+}

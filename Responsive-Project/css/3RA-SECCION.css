@@ -1,0 +1,32 @@
+.celular-e-informacion {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#celular {
+  width: 100%;
+  position: relative;
+}
+
+h3 {
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  font-weight: 400;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+
+#segundo-parrafo {
+  font-family: "IBM Plex Mono";
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 600;
+}

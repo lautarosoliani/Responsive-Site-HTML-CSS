@@ -1,0 +1,40 @@
+
+
+.footer{
+    
+    height: 80px;
+    width: 100%;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+#contenedor-icons{
+    display: flex;
+    width:280px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.footer p{
+        font-family: "IBM Plex Mono";
+        font-size: 13px;
+        color: #060a24;
+        letter-spacing: 0;
+        font-weight: 600; 
+} 
+i:hover {
+    font-size: 21px;
+
+  }
+
+  #icono-instagram{
+       width:18px;
+
+  }
+
+  #icono-instagram:hover{
+    width:21px;
+    
+  }

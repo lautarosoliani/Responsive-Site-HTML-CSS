@@ -1,0 +1,30 @@
+.invitados {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.imagenes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-family: "IBM Plex Sans";
+  font-size: 36px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 42px;
+  font-weight: 400;
+}

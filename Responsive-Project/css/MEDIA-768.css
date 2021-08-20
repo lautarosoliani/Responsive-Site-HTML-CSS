@@ -1,0 +1,102 @@
+@media  screen and (min-width: 768px) {
+  /* 1RA SECCION -------- */
+  .titulo-y-primerBoton{
+    height: 300px;
+    align-items: flex-start;
+    padding-left: 150px;
+    
+  }
+
+  #parrafo-principal {
+    width:60%;
+  }
+
+ h1{
+   width:70%;
+ }
+ 
+
+  /* 2DA SECCION -------- */
+  .episodios {
+    height: 800px;
+  }
+
+  #primer-fondo-azul {
+    width: 100%;
+    height: 950px;
+    -webkit-clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0% 100%);
+  }
+
+  .embebidos {
+    height: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+
+  iframe {
+    width: 40%;
+    margin: 0;
+  }
+
+  h2 {
+    width: 50%;
+    margin-left: 120px;
+  }
+ 
+
+/* 3RA SECCION -------------------- */
+
+.celular-e-informacion {
+  flex-direction: row;
+  align-items: center;
+  padding-top: 60px;
+}
+#celular {
+  width: 30%;
+  margin: 0px 10px 0px 30px;
+  
+}
+
+h3 {
+  width: 80%;
+  margin-top: 50px;
+  
+}
+
+
+
+/* 4TA SECCION -------------------- */
+
+.invitados {
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 33.3%;
+  }
+
+  h4 {
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+
+
+  
+/* 5TA SECCION -------------------- */
+
+#icono-y-descripcion {
+    width: 200px;
+  }
+
+  .contenedor-topicos{
+    width:70%;
+  }
+
+   h5{
+     
+     width:80%;}
+
+
+   }

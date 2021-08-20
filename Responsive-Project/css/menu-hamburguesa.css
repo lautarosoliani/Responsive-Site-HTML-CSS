@@ -1,0 +1,97 @@
+/*----LABEL---- */
+
+.container-hamburguesa {
+  width: 34px;
+  height: 28px;
+  position: relative;
+  cursor: pointer;
+}
+
+.linea {
+  background-color: black;
+  border-radius: 15px;
+  width: 75%;
+  height: 3px;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.linea-top {
+  top: 25%;
+}
+
+.linea-med {
+  top: 50%;
+}
+
+.linea-bottom {
+  top: 75%;
+}
+
+.cuadrado-checkbox:checked + .label-hamburguesa .linea-top {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: linear-gradient(
+    270deg,
+    rgb(53, 241, 179),
+    rgb(0, 183, 255),
+    blue
+  );
+}
+
+.cuadrado-checkbox:checked + .label-hamburguesa .linea-bottom {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: linear-gradient(
+    270deg,
+    blue,
+    rgb(0, 183, 255) 70%,
+    rgb(53, 241, 179)
+  );
+}
+
+.cuadrado-checkbox:checked + .label-hamburguesa .linea-med {
+  opacity: 0;
+}
+
+.cuadrado-checkbox {
+  display: none;
+}
+
+/* ------MENU------- */
+
+.menu {
+  background-color: rgba(31, 11, 250);
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  transform: translateX(100%);
+  transition: all 1s ease;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+}
+
+.menu-items {
+  padding: 25px;
+}
+.menu-items:hover{
+  color: #00f3bb;
+  text-decoration: line-through;
+
+}
+input.cuadrado-checkbox:checked ~ div.menu {
+  position: absolute;
+  width: 100vw;
+  transform: translateX(0%);
+}
+
+a,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}

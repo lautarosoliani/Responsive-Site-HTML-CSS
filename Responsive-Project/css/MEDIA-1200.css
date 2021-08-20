@@ -1,0 +1,135 @@
+@media screen and (min-width: 1200px) {
+  /*NAV-BAR  */
+  .menu-mobile {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: block;
+  }
+  nav {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #logo{
+    width:39px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    font-family: "IBM Plex Mono";
+    font-size: 15px;
+    color: #060a24;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+  li:hover {
+   
+    color: #00f3bb;
+    text-decoration: line-through;
+  }
+ 
+  li:active{
+    text-decoration: line-through;
+    color: rgba(6,10,36,0.56);
+  }
+
+  a:visited, a:active{
+    color:black;
+  }
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  
+  /* 1RA SECCION -------------------- */
+
+  .titulo-y-primerBoton {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+  }
+  h1 {
+    padding-left: 5px;
+
+  }
+
+  #parrafo-principal {
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #boton-principal {
+    width: 226px;
+  }
+
+ /* 2DA SECCION */
+ h2 {
+  width: 50%;
+  margin-left: 170px;
+  padding-top: 20px;
+}
+
+#primer-fondo-azul {
+  
+  height: 1050px;}
+
+
+  /* 3RA SECCION -------------------- */
+
+  .celular-e-informacion {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  #celular {
+    width: 30%;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top:100px;
+  }
+
+  h3 {
+    width: 75%;
+    left: 30px;
+  }
+
+  #segundo-parrafo {
+    width: 75%;
+  }
+  
+  /* 4TA SECCION -------------------- */
+  h4 {
+    margin-left: 10.5%;
+    margin-bottom: 30px;
+  }
+
+  /* 5TA SECCION -------------------- */
+  .contenedor-topicos{
+    width:85%;
+  }
+   h5{
+     width:80%;
+   }
+
+  /* 6TA SECCION -------------------- */
+
+  .pre-footer {
+    justify-content: center;
+  }
+
+  h6 {
+    margin-bottom: 30px;
+  }
+}
