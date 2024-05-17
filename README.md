@@ -29,6 +29,5 @@ For instance, the navigation menu changes between its versions for desktop and m
 There are 4 episodes of programming in IFrame format, fully functional
 <br></br>
 
-![hippo](https://i.ibb.co/s3f5C1z/Screenshot-2021-08-20-060524.png)
-
+![1](https://github.com/lautarosoliani/Responsive-Site-HTML-CSS/assets/72751465/96ee1cdb-84dd-4fa8-a74b-fc2fa7de29e7)
 
